@@ -8,7 +8,7 @@ from keras.preprocessing.image import ImageDataGenerator
 from matplotlib import pyplot
 
 # we first load the image
-image = load_img('cat.jpg')
+image = load_img('parrot.jpg')
 # we converting the image which is in PIL format into the numpy array, so that we can apply deep learning methods
 dataImage = img_to_array(image)
 # print(dataImage)
